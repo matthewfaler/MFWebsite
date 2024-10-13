@@ -1,7 +1,6 @@
 body {
     background-color: #e4eaec;
     font-family: verdana, sans-serif;
-    font-size: 1.15em;
     margin-right: 5em;
     margin-left: 5em;
 }
@@ -10,7 +9,6 @@ h1 {
     text-align: center;
 }
 p, a {
-    font-size: 1.15em;
     text-shadow: 0.05em 0.05em 1.25em gray;
 }
 hr {
