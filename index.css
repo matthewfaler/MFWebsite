@@ -1,3 +1,30 @@
 body {
     background-color: #e4eaec;
+    font-family: verdana, sans-serif;
+    font-size: 1.15em;
+    margin-right: 5em;
+    margin-left: 5em;
+}
+h1 {
+    margin: auto;
+    text-align: center;
+}
+p, a {
+    font-size: 1.15em;
+    text-shadow: 0.05em 0.05em 1.25em gray;
+}
+hr {
+    margin-left: -1em;
+    margin-right: -1em;
+}
+footer {
+    background-color: rgb(255, 255, 255);
+    margin-left: -5em;
+    margin-right: -5em;
+    padding-left: 3.5em;
+    padding-right: 3.5em;
+}
+img {
+    display: block;
+    margin: auto;
 }
