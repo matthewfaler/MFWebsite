@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "title": "C/C++",
+        "description": "Proficient with both C and C++ programming languages after having multiple years of classroom experience and linux kernel programming in the workplace"
+    },
+    {
+        "id": 2,
+        "title": "Java",
+        "description": "Multiple years of experience with Java programming language dating back to high school. Experience with object-oriented programming principles, polymorphism, front-end design, etc."
+    },
+    {
+        "id": 3,
+        "title": "Database Management",
+        "description": "Experience with both SQL and MySQL database management languages in both a classroom setting and outside.Very comfortable with numbers and data."
+    }
+]

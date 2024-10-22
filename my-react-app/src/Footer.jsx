@@ -4,7 +4,7 @@ function Footer() {
     const age = Math.floor((currentDate - birthDate)/(1000*60*60*24*365));
     return(
         <footer>
-            <hr/>
+            <hr />
             <p>Author: Matthew Faler</p>
             <small>
                 <p>{age} YO Computer Scientist and Mathematician</p>
@@ -12,7 +12,7 @@ function Footer() {
                 <p><a href="https://linkedin.com/in/matthew-faler">LinkedIn</a></p>
                 <p><a href="Https://github.com/matthewfaler">GitHub</a></p>
             </small>
-            <br/>
+            <br />
         </footer>
     );   
 }
