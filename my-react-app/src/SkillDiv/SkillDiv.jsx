@@ -1,9 +1,10 @@
 import SkillCard from "./SkillCard";
 import skills from "./Skills.json";
+import styles from './SkillDiv.module.css';
 
-const SkillDiv = () => {
+function SkillDiv() {
     return(
-        <div className="card-div">
+        <div className={styles.SkillDiv}>
             {skills.map(skill => (
                 <SkillCard key={skill.id} skill={skill} />
             ))}
