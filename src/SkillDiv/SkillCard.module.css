@@ -1,0 +1,8 @@
+.SkillCard {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 50%;
+}
+.SkillCard h3 {
+    color: hsl(100, 75%, 55%);
+}
