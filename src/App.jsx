@@ -13,6 +13,7 @@ function App() {
       <Body text={text.paragraph2} />
       <Body text={text.paragraph3} />
       <Body text={text.paragraph4} />
+      <Body text={text.paragraph5} />
       <SkillDiv />
       <Footer />
     </>  

@@ -9,7 +9,6 @@ function Footer() {
             <p>Author: Matthew Faler</p>
             <small>
                 <p>{age} YO Computer Scientist and Mathematician</p>
-                <p><a href="mailto:matthewfaler1@gmail.com">matthewfaler1@gmail.com</a></p>
                 <p><a href="https://linkedin.com/in/matthew-faler">LinkedIn</a></p>
                 <p><a href="Https://github.com/matthewfaler">GitHub</a></p>
             </small>
