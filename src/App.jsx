@@ -8,7 +8,7 @@ import './App.css'
 function App() {
   return (
     <>
-      <Header text="MatthewFaler.com" />
+      <Header text="MatthewFaler.dev" />
       <Body text={text.paragraph1} />
       <Body text={text.paragraph2} />
       <Body text={text.paragraph3} />
