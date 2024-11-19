@@ -28,4 +28,17 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
+#container {
+  animation: fade-in ease-out 1s;
+}
 
+@keyframes fade-in {
+  from {
+    opacity: 0%;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 100%;
+    transform: scale(1);
+  }
+}
