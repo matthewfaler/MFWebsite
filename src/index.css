@@ -27,5 +27,14 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  animation: fade-in 2s;
 }
 
+@keyframes fade-in {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
