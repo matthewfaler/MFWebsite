@@ -7,7 +7,7 @@ import './App.css'
 
 function App() {
   return (
-    <>
+    <div id="container">
       <Header text="MatthewFaler.dev" />
       <Body text={text.paragraph1} />
       <Body text={text.paragraph2} />
@@ -16,7 +16,7 @@ function App() {
       <Body text={text.paragraph5} />
       <SkillDiv />
       <Footer />
-    </>  
+    </div>
   );
 }
 
