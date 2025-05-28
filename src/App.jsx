@@ -9,7 +9,7 @@ function App() {
   return (
     <div id="container">
       <Header text="MatthewFaler.dev" />
-      <img src="/Profile.jpeg" alt="Matthew Faler" id = "profilePic" />
+      <img src="/Profile.webp" alt="Matthew Faler" id = "profilePic" />
       <Body text={text.paragraph1} />
       <Body text={text.paragraph2} />
       <Body text={text.paragraph3} />
