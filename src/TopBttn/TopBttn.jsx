@@ -1,14 +1,15 @@
 import styles from './TopBttn.module.css'
 
-function TopBttn() {
 
-    function ScrollToTop() {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
-    }
+function ScrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
+function TopBttn() {
     return (
-        <button className={styles.TopBttn} onclick="ScrollToTop()">Scroll to Top</button>
+        <button className={styles.TopBttn} onClick={ScrollToTop}>Scroll to Top</button>
     );
 }
+export default TopBttn
