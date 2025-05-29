@@ -2,7 +2,7 @@ import Header from './Header/Header';
 import text from './Body/text.json';
 import Body from './Body/Body';
 import SkillDiv from './SkillDiv/SkillDiv';
-import Footer from './Footer';
+import Footer from './Footer/Footer';
 import './App.css'
 
 function App() {
