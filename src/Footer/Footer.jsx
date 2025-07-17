@@ -1,7 +1,8 @@
+import styles from './Footer.module.css'
 
 function Footer() {
     return(
-        <footer>
+        <footer className={styles.Footer}>
             <hr />
             <p>Author: Matthew Faler</p>
             <small>
