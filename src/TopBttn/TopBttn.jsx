@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import styles from './TopBttn.module.css';
 
-
 function ScrollToTop() {
     window.scrollTo({
         top: 0,
@@ -14,17 +13,17 @@ function TopBttn() {
 
     useEffect(() => {
         const handleScroll = () => {
-            setIsVisible(window.scrollY > 200)
+            setIsVisible(window.scrollY > 300)
         };
 
-        window.addEventListener('scroll', handleScroll);
+        window.addEventListener("scroll", handleScroll);
         return () => {
-            window.removeEventListener('scroll', handleScroll);
+            window.removeEventListener("scroll", handleScroll);
         }
     }, []);
 
     return (
-        <button className={`${styles.TopBttn} ${isVisible ? styles.visible : styles.hidden}`} onClick={ScrollToTop}>Scroll to Top</button>
+        <button className={`${styles.TopBttn} ${isVisible ? '' : styles.hidden}`} onClick={ScrollToTop}>Scroll to Top</button>
     );
 }
 export default TopBttn
