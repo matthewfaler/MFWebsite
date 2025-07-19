@@ -4,7 +4,8 @@
 }
 
 button {
-    color: 0xFFFFFF;
+    -webkit-appearance: none;
+    appearance: none;
     height: 2.4rem;
     width: 5.7rem;
     position: fixed;
