@@ -4,14 +4,19 @@
 }
 
 button {
+<<<<<<< HEAD
     -webkit-appearance: none;
     appearance: none;
+=======
+    color: 0xFFFFFF;
+>>>>>>> 378d8420a21b5ad6fa53b739af92c3605cab118d
     height: 2.4rem;
     width: 5.7rem;
     position: fixed;
     background-color: hsl(0, 0%, 25%);
     border-style: solid;
     border-color: hsl(100, 75%, 55%);
+    border-width: 1 rem;
     padding-top: 0.35rem;
     padding-bottom: 0.35rem;
     border-radius: 2rem;
