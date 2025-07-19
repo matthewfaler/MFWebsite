@@ -4,12 +4,8 @@
 }
 
 button {
-<<<<<<< HEAD
     -webkit-appearance: none;
     appearance: none;
-=======
-    color: 0xFFFFFF;
->>>>>>> 378d8420a21b5ad6fa53b739af92c3605cab118d
     height: 2.4rem;
     width: 5.7rem;
     position: fixed;
