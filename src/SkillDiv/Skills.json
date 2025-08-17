@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "General Purpose Programming",
-        "description": "Proficent with or exposure to multiple general purpose programming languages including Java, C/C++, Python, and Scala. Well-versed in object oriented programming practices."
+        "description": "Proficent with or exposure to multiple general purpose programming languages including Java, C/C++, Python, JavaScript, and Scala. Well-versed in object oriented programming practices."
     },
     {
         "id": 2,
@@ -12,7 +12,7 @@
     {
         "id": 3,
         "title": "Web Technologies",
-        "description": "Proficient with common web stack technologies such as HTML, CSS, and Javascript as well as the React library."
+        "description": "Proficient with common web stack technologies such as HTML, CSS, and Javascript as well as the React, Angular, Django, and Spring frameworks."
     },
     {
         "id": 4,
@@ -21,22 +21,17 @@
     },
     {
         "id": 5,
-        "title": "Embedded Technologies",
-        "description": "Proficient with or exposure to multiple languages used in embedded programming such as Assembly Languages and Arduino."
-    },
-    {
-        "id": 6,
         "title": "Scripting Languages",
         "description": "Proficient with or exposure to multiple scripting techniques such as shell scripting, Python, and Javascript."
     },
     {
-        "id": 7,
+        "id": 6,
         "title": "Operating Systems",
         "description": "Strong understanding of operating system architecture and internals. Large amount of work-related exposure to Linux and MacOS. Experience with Windows."
     },
     {
-        "id": 8,
+        "id": 7,
         "title": "Cloud",
-        "description": "Understanding of and experience with multiple AWS cloud services including Amplify, Route53, Lambda, API Gateway, DynamoDB, and more."
+        "description": "Understanding of and experience with multiple AWS cloud services including Amplify, Elastic Container Registry, Elastic Container Service, Route53, EC2, and S3."
     }
 ]
